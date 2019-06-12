@@ -1,0 +1,20 @@
+#*****************************************************************
+#
+#       マップ情報スクリプトファイル[map_stage1-5.txt]
+#       Auther : Hodaka Niwa
+#
+#*****************************************************************
+
+# マップ１個分の情報を読み込むスクリプトファイルです
+# これを複数用意して読み込むマップを変えることで、マップ切り替えを実装します
+
+MAPSET
+	FIELD_FILENAME = data/TEXT/MAP/FIELD/field000.txt           # 地面の情報が書かれたテキストファイル名
+		WATER_FILENAME = data/TEXT/MAP/WATER/water000.txt           # 水の情報が書かれたテキストファイル名
+	OBJECT_FILENAME = data/TEXT/MAP/OBJECT/stage1-5.txt        # 配置物の情報が書かれたテキストファイル名
+	MOUNTAIN_FILENAME = data/TEXT/MAP/MOUNTAIN/mountain000.txt  # 山の情報が書かれたテキストファイル名
+	SKY_FILENAME =  data/TEXT/MAP/SKY/sky000.txt 			    # 空の情報が書かれたテキストファイル名
+	PLAYER_DEFAULT_POS = 50.0 300.0 -2000.0                       # プレイヤーの初期座標
+	PLAYER_DEFAULT_ROT = 0.0 1.57 0.0                          # プレイヤーの初期向き
+	CAMERA_DEFAULT_ROT = 0.0 -1.57 0.0                           # カメラの初期向き
+END_MAPSET

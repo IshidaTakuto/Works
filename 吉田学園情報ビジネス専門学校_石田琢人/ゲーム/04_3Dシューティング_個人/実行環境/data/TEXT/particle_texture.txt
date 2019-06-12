@@ -1,0 +1,7 @@
+5
+
+data/TEXTURE/SandDust.jpg
+data/TEXTURE/shadow000.jpg
+data/TEXTURE/fire.jpg
+data/TEXTURE/smoke.png
+data/TEXTURE/spread.png

@@ -1,0 +1,65 @@
+#********************************************************************
+#
+#    配置物(選択マップ目)スクリプトファイル[stage-select.txt]
+#    Auther : Hodaka Niwa
+#
+#********************************************************************
+
+#********************************************************************
+#    読み込むモデル数(必ず下の読み込むファイル数と数を一致させること！)
+#********************************************************************
+NUM_MODEL = 5
+
+#********************************************************************
+#    読み込むモデルファイル名(必ず上の読み込むモデル数と数を一致させること！)
+#********************************************************************
+MODEL_FILENAME = data/MODEL/stage/mpo_stage1-1.x # ステージ1の模型[0]
+MODEL_FILENAME = data/MODEL/stage/mpo_stage1-2.x # ステージ2の模型[1]
+MODEL_FILENAME = data/MODEL/stage/mpo_stage1-3.x # ステージ3の模型[2]
+MODEL_FILENAME = data/MODEL/stage/mpo_stage1-4.x # ステージ4の模型[3]
+MODEL_FILENAME = data/MODEL/stage/mpo_stage1-5.x # ステージ5の模型[4]
+
+
+#====================================================================
+#    モデル配置情報
+#====================================================================
+OBJECTBALLOONSET
+	TYPE = 0                  							   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -697.0 0.0 -727.0       							   # 座標
+	ROT = 0.0 0.0 0.0          							   # 向き
+	NEXT_MAPNAME = data/TEXT/MAP/map_stage1-1.txt          # 次のマップデータのファイル名
+	ROLL_SPEED = 0.0 0.0 0.0   							   # 回転するスピード量(回したいときはここをいじる)
+END_OBJECTBALLOONSET
+
+OBJECTBALLOONSET
+	TYPE = 1                  							   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 396.0 40.0 -527.0       							   # 座標
+	ROT = 0.0 0.0 0.0          							   # 向き
+	NEXT_MAPNAME = data/TEXT/MAP/map_stage1-2.txt          # 次のマップデータのファイル名
+	ROLL_SPEED = 0.0 0.0 0.0   							   # 回転するスピード量(回したいときはここをいじる)
+END_OBJECTBALLOONSET
+
+OBJECTBALLOONSET
+	TYPE = 2                  							   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -580.0 48.5 420.0       							   # 座標
+	ROT = 0.0 0.0 0.0          							   # 向き
+	NEXT_MAPNAME = data/TEXT/MAP/map_stage1-3.txt          # 次のマップデータのファイル名
+	ROLL_SPEED = 0.0 0.0 0.0   							   # 回転するスピード量(回したいときはここをいじる)
+END_OBJECTBALLOONSET
+
+OBJECTBALLOONSET
+	TYPE = 3                  							   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 460.0 0.0 485.0       							   # 座標
+	ROT = 0.0 0.0 0.0          							   # 向き
+	NEXT_MAPNAME = data/TEXT/MAP/map_stage1-4.txt          # 次のマップデータのファイル名
+	ROLL_SPEED = 0.0 0.0 0.0   							   # 回転するスピード量(回したいときはここをいじる)
+END_OBJECTBALLOONSET
+
+
+OBJECTBALLOONSET
+	TYPE = 4                  							   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -67.0 281.0 -63.0       						   # 座標
+	ROT = 0.0 0.0 0.0          							   # 向き
+	NEXT_MAPNAME = data/TEXT/MAP/map_stage1-5.txt          # 次のマップデータのファイル名
+	ROLL_SPEED = 0.0 0.0 0.0   							   # 回転するスピード量(回したいときはここをいじる)
+END_OBJECTBALLOONSET

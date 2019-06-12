@@ -1,0 +1,8 @@
+6
+
+data/TEXTURE/GAME/smoke.png
+data/TEXTURE/GAME/spread.png
+data/TEXTURE/GAME/star.png
+data/TEXTURE/GAME/panchi.png
+data/TEXTURE/GAME/BreakRock.png
+data/TEXTURE/GAME/ucchicong.png

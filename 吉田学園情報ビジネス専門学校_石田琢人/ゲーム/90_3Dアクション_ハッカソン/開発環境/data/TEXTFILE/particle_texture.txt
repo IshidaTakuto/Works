@@ -1,0 +1,6 @@
+4
+
+data/TEXTURE/smoke.png
+data/TEXTURE/spread.png
+data/TEXTURE/star.png
+data/TEXTURE/shadow000.jpg

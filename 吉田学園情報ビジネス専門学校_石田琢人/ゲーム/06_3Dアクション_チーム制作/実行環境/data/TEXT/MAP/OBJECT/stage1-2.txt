@@ -1,0 +1,187 @@
+#********************************************************************
+#
+#    配置物(2マップ目)スクリプトファイル[stage1-2.txt]
+#    Auther : Hodaka Niwa
+#
+#********************************************************************
+
+#********************************************************************
+#    読み込むモデル数(必ず下の読み込むファイル数と数を一致させること！)
+#********************************************************************
+NUM_MODEL = 9
+
+#********************************************************************
+#    読み込むモデルファイル名(必ず上の読み込むモデル数と数を一致させること！)
+#********************************************************************
+MODEL_FILENAME = data/MODEL/object/maruta_yoko.x     	# 丸太 横[0]
+MODEL_FILENAME = data/MODEL/object/ita.x      			# 板[1]
+MODEL_FILENAME = data/MODEL/object/maruta_tate.x     	# 丸太　縦[2]
+MODEL_FILENAME = data/MODEL/object/heikinndai.x      	# 平均台[3]
+MODEL_FILENAME = data/MODEL/object/3ren_ita.x     		# 板[4]
+MODEL_FILENAME = data/MODEL/object/doramukan.x      	# ドラム缶縦[5]
+MODEL_FILENAME = data/MODEL/object/doramukan_yoko.x		# ドラム缶横[6]
+MODEL_FILENAME = data/MODEL/object/BreakBlock_03.x    	# ブロック[7]
+MODEL_FILENAME = data/MODEL/object/flag.x               # ゴール[8]
+
+#====================================================================
+#    モデル配置情報
+#====================================================================
+
+OBJECTSET
+	TYPE = 1                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -2000.0 10.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+# 足場と板
+
+OBJECTSET
+	TYPE = 1                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -1780.0 70.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 1                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -1580.0 150.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 4                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -1180.0 230.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 7                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -1180.0 230.0 0.0         # 座標
+	ROT = 0.0 1.57 0.0         # 向き
+	BREAK = 1
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 3                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -730.0 230.0 0.0         # 座標
+	ROT = 0.0 1.57 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 1                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -480.0 150.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 1                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -280.0 70.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 1                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = -80.0 10.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 6                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 180.0 10.0 0.0         # 座標
+	ROT = 0.0 1.57 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 6                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 380.0 10.0 -180.0         # 座標
+	ROT = 0.0 1.57 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 6                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 380.0 10.0 180.0         # 座標
+	ROT = 0.0 1.57 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 6                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 580.0 10.0 0.0         # 座標
+	ROT = 0.0 1.57 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 1                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 880.0 10.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 1                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 1080.0 70.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 1                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 1280.0 150.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 4                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 1680.0 230.0 0.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 7                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 1680.0 230.0 0.0         # 座標
+	ROT = 0.0 1.57.0 0.0         # 向き
+	BREAK = 1
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 4                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 1860.0 230.0 580.0         # 座標
+	ROT = 0.0 1.57 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 7                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 1860.0 230.0 580.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+	BREAK = 1
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 4                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 1860.0 230.0 1380.0         # 座標
+	ROT = 0.0 1.57 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 4                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 2460.0 230.0 1580.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 7                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 2460.0 230.0 1580.0         # 座標
+	ROT = 0.0 1.57 0.0         # 向き
+	BREAK = 1
+END_OBJECTSET
+
+OBJECTSET
+	TYPE = 1                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 2960.0 230.0 1580.0         # 座標
+	ROT = 0.0 0.0 0.0         # 向き
+END_OBJECTSET
+
+#-------------------------------------
+#    ゴール用配置物
+#-------------------------------------
+OBJECTGOALSET
+	TYPE = 8                   # 配置するモデルの番号(上の番号とそろえてあります)
+	POS = 2960.0 230.0 1580.0  # 座標
+	ROT = 0.0 0.0 0.0          # 向き
+END_OBJECTGOALSET

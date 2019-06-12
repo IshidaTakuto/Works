@@ -1,0 +1,183 @@
+#********************************************************************
+#
+#    【EffectCreater】スクリプトファイル	[field.txt]
+#    Auther : Ishida Takuto
+#
+#********************************************************************
+SCRIPT
+
+NUM_EMITTER = 8
+
+#******************************************
+#	パーティクルの設定
+#******************************************
+PARTICLESET		[ 0 ]				#プレイヤーが走った時
+	MAXMOVE = 0 1 0					＃移動量の最大
+	MINMOVE = 0 0 0					＃移動量の最小
+	INITCOL = 1.00 1.00 1.00 1.00	＃初期カラー
+	FLAMECOL = 0.00 0.00 0.00 -0.02	＃フレーム毎のカラーの変化
+	INITSIZE = 50 50					＃初期サイズ
+	FLAMESIZE = 0.200005			＃フレーム毎のサイズの変化
+	EMITTERLIFE = 1					＃エミッタの寿命
+	PARLIFE = 95 96					＃ポリゴンの寿命
+	APPEAR = 1						＃出現間隔
+	SPREAD = 0.50					＃拡散
+	LAP = 7							＃1周に出す個数
+	GRAVITY = 0.000000				＃重力
+	ROTPATTERN = 3					＃回転のパターン
+	ROTSPEED = 0.010000				＃回転の速度
+	LOOP = 0						＃ループ[0:なし　1:あり]
+	BOUND = 0						＃バウンド[0:なし　1:あり]
+	TEXTURE = 0						＃テクスチャの種類
+	DRAW = 0						＃加算合成[0:なし　1:あり]
+END_PARTICLESET
+
+PARTICLESET		[ 1 ]				＃殴った時
+	MAXMOVE = 0 0 0					＃移動量の最大
+	MINMOVE = 0 0 0					＃移動量の最小
+	INITCOL = 1.00 1.00 1.00 0.70	＃初期カラー
+	FLAMECOL = 0.00 0.00 0.00 -0.04	＃フレーム毎のカラーの変化
+	INITSIZE = 49 50					＃初期サイズ
+	FLAMESIZE = 1.500000			＃フレーム毎のサイズの変化
+	EMITTERLIFE = 5					＃エミッタの寿命
+	PARLIFE = 24 24					＃ポリゴンの寿命
+	APPEAR = 1						＃出現間隔
+	SPREAD = 0.00					＃拡散
+	LAP = 4							＃1周に出す個数
+	GRAVITY = 0.000000				＃重力
+	ROTPATTERN = 3					＃回転のパターン
+	ROTSPEED = 0.020000				＃回転の速度
+	LOOP = 0						＃ループ[0:なし　1:あり]
+	BOUND = 0						＃バウンド[0:なし　1:あり]
+	TEXTURE = 3						＃テクスチャの種類
+	DRAW = 1						＃加算合成[0:なし　1:あり]
+END_PARTICLESET
+
+PARTICLESET		[ 2 ]				＃蹴った時
+	MAXMOVE = 0 0 0					＃移動量の最大
+	MINMOVE = 0 0 0					＃移動量の最小
+	INITCOL = 0.00 1.00 0.00 0.70	＃初期カラー
+	FLAMECOL = 0.00 0.00 0.00 -0.04	＃フレーム毎のカラーの変化
+	INITSIZE = 49 50					＃初期サイズ
+	FLAMESIZE = 1.500000			＃フレーム毎のサイズの変化
+	EMITTERLIFE = 5					＃エミッタの寿命
+	PARLIFE = 24 24					＃ポリゴンの寿命
+	APPEAR = 1						＃出現間隔
+	SPREAD = 0.00					＃拡散
+	LAP = 4							＃1周に出す個数
+	GRAVITY = 0.000000				＃重力
+	ROTPATTERN = 3					＃回転のパターン
+	ROTSPEED = 0.020000				＃回転の速度
+	LOOP = 0						＃ループ[0:なし　1:あり]
+	BOUND = 0						＃バウンド[0:なし　1:あり]
+	TEXTURE = 3						＃テクスチャの種類
+	DRAW = 1						＃加算合成[0:なし　1:あり]
+END_PARTICLESET
+
+PARTICLESET		[ 3 ]				＃物を壊したとき
+	MAXMOVE = 5 5 5					＃移動量の最大
+	MINMOVE = 1 1 1					＃移動量の最小
+	INITCOL = 1.00 1.00 1.00 1.00	＃初期カラー
+	FLAMECOL = 0.00 0.00 0.00 -0.01	＃フレーム毎のカラーの変化
+	INITSIZE = 65 70					＃初期サイズ
+	FLAMESIZE = -0.100000			＃フレーム毎のサイズの変化
+	EMITTERLIFE = 7					＃エミッタの寿命
+	PARLIFE = 60 60					＃ポリゴンの寿命
+	APPEAR = 1						＃出現間隔
+	SPREAD = 1.45					＃拡散
+	LAP = 7							＃1周に出す個数
+	GRAVITY = 0.250000				＃重力
+	ROTPATTERN = 1					＃回転のパターン
+	ROTSPEED = 0.010000				＃回転の速度
+	LOOP = 0						＃ループ[0:なし　1:あり]
+	BOUND = 0						＃バウンド[0:なし　1:あり]
+	TEXTURE = 4						＃テクスチャの種類
+	DRAW = 0						＃加算合成[0:なし　1:あり]
+END_PARTICLESET
+
+PARTICLESET		[ 4 ]				＃着地したとき
+	MAXMOVE = 15 0 15					＃移動量の最大
+	MINMOVE = -15 0 -15					＃移動量の最小
+	INITCOL = 1.00 1.00 1.00 0.90	＃初期カラー
+	FLAMECOL = 0.00 0.00 0.00 -0.02	＃フレーム毎のカラーの変化
+	INITSIZE = 47 50					＃初期サイズ
+	FLAMESIZE = 0.150000			＃フレーム毎のサイズの変化
+	EMITTERLIFE = 10					＃エミッタの寿命
+	PARLIFE = 50 60					＃ポリゴンの寿命
+	APPEAR = 1						＃出現間隔
+	SPREAD = 0.50					＃拡散
+	LAP = 10							＃1周に出す個数
+	GRAVITY = -0.090000				＃重力
+	ROTPATTERN = 1					＃回転のパターン
+	ROTSPEED = 0.020000				＃回転の速度
+	LOOP = 0						＃ループ[0:なし　1:あり]
+	BOUND = 0						＃バウンド[0:なし　1:あり]
+	TEXTURE = 0						＃テクスチャの種類
+	DRAW = 0						＃加算合成[0:なし　1:あり]
+END_PARTICLESET
+
+PARTICLESET		[ 5 ]				＃水しぶき
+	MAXMOVE = 4 15 4					＃移動量の最大
+	MINMOVE = 0 2 0					＃移動量の最小
+	INITCOL = 0.70 0.80 1.00 0.75	＃初期カラー
+	FLAMECOL = 0.00 0.00 0.00 -0.03	＃フレーム毎のカラーの変化
+	INITSIZE = 70 80					＃初期サイズ
+	FLAMESIZE = 0.999999			＃フレーム毎のサイズの変化
+	EMITTERLIFE = 12					＃エミッタの寿命
+	PARLIFE = 50 60					＃ポリゴンの寿命
+	APPEAR = 1						＃出現間隔
+	SPREAD = 1.50					＃拡散
+	LAP = 12							＃1周に出す個数
+	GRAVITY = 0.100000				＃重力
+	ROTPATTERN = 1					＃回転のパターン
+	ROTSPEED = 0.010000				＃回転の速度
+	LOOP = 0						＃ループ[0:なし　1:あり]
+	BOUND = 0						＃バウンド[0:なし　1:あり]
+	TEXTURE = 1						＃テクスチャの種類
+	DRAW = 1						＃加算合成[0:なし　1:あり]
+END_PARTICLESET
+
+PARTICLESET		[ 6 ]				＃歩いているとき
+	MAXMOVE = 0 1 0					＃移動量の最大
+	MINMOVE = 0 0 0					＃移動量の最小
+	INITCOL = 1.00 1.00 1.00 1.00	＃初期カラー
+	FLAMECOL = 0.00 0.00 0.00 -0.02	＃フレーム毎のカラーの変化
+	INITSIZE = 35 40					＃初期サイズ
+	FLAMESIZE = 0.200005			＃フレーム毎のサイズの変化
+	EMITTERLIFE = 1					＃エミッタの寿命
+	PARLIFE = 95 96					＃ポリゴンの寿命
+	APPEAR = 1						＃出現間隔
+	SPREAD = 0.50					＃拡散
+	LAP = 7							＃1周に出す個数
+	GRAVITY = 0.000000				＃重力
+	ROTPATTERN = 3					＃回転のパターン
+	ROTSPEED = 0.010000				＃回転の速度
+	LOOP = 0						＃ループ[0:なし　1:あり]
+	BOUND = 0						＃バウンド[0:なし　1:あり]
+	TEXTURE = 0						＃テクスチャの種類
+	DRAW = 1						＃加算合成[0:なし　1:あり]
+END_PARTICLESET
+
+PARTICLESET		[ 7 ]				＃ゴリラ
+	MAXMOVE = 0 0 0					＃移動量の最大
+	MINMOVE = 0 0 0					＃移動量の最小
+	INITCOL = 1.00 1.00 1.00 1.00	＃初期カラー
+	FLAMECOL = 0.00 0.00 0.00 -0.02	＃フレーム毎のカラーの変化
+	INITSIZE = 10 40					＃初期サイズ
+	FLAMESIZE = 2.999997			＃フレーム毎のサイズの変化
+	EMITTERLIFE = 1					＃エミッタの寿命
+	PARLIFE = 60 60					＃ポリゴンの寿命
+	APPEAR = 1						＃出現間隔
+	SPREAD = -0.00					＃拡散
+	LAP = 7							＃1周に出す個数
+	GRAVITY = 0.000000				＃重力
+	ROTPATTERN = 0					＃回転のパターン
+	ROTSPEED = 0.000000				＃回転の速度
+	LOOP = 1						＃ループ[0:なし　1:あり]
+	BOUND = 0						＃バウンド[0:なし　1:あり]
+	TEXTURE = 5						＃テクスチャの種類
+	DRAW = 0						＃加算合成[0:なし　1:あり]
+END_PARTICLESET
+
+
+END_SCRIPT

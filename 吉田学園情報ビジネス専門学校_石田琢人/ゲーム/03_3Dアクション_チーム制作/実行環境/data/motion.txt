@@ -1,0 +1,11 @@
+8
+
+data/MOTION/player_N.txt
+data/MOTION/player_A.txt
+data/MOTION/player_I.txt
+data/MOTION/player_S.txt
+
+data/MOTION/runningman_Sword.txt
+data/MOTION/Warrior.txt
+data/MOTION/Ninja.txt
+data/MOTION/Wizard.txt

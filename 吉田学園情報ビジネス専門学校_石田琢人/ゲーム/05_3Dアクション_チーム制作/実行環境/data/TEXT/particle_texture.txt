@@ -1,0 +1,10 @@
+7
+
+data/TEXTURE/SandDust.jpg
+data/TEXTURE/blood1.png
+data/TEXTURE/combo.jpg
+data/TEXTURE/shadow000.jpg
+data/TEXTURE/weed.png
+data/TEXTURE/smoke.png
+data/TEXTURE/fire.jpg
+

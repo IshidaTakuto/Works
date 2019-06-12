@@ -1,0 +1,204 @@
+data/MODEL/runningman/00_bodyD.x	10	0.0 45.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/01_bodyU.x	10	0.0 10.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/02_head.x		10	0.0 21.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/03_armUR.x	10	-6.5 15.5 0.0		0.0 0.0 0.0
+data/MODEL/runningman/04_armDR.x	10	-12.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/05_handR.x	10	-10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/06_armUL.x	10	6.5 15.5 0.0		0.0 0.0 0.0
+data/MODEL/runningman/07_armDL.x	10	12.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/08_handL.x	10	10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/09_legUR.x	10	-6.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/10_legDR.x	10	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/11_footR.x	10	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/12_legUL.x	10	6.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/runningman/13_legDL.x	10	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/runningman/14_footL.x	10	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/500sword.x				11	-10.0 1.0 -0.5		0.0 0.0 0.0
+data/MODEL/501sword.x				12	-10.0 1.0 -0.5		0.0 0.0 0.0
+data/MODEL/502sword.x				13	-10.0 1.0 -0.5		0.0 0.0 0.0
+
+
+
+data/MODEL/normal/00_hip.x			0	0.0 33.0 0.0		0.0 0.0 0.0
+data/MODEL/normal/01_chest.x		0	0.0 0.0 -10.0		0.0 0.0 0.0
+data/MODEL/normal/02_neck.x			0	0.0 0.0 -10.0		0.0 0.0 0.0
+data/MODEL/normal/03_head.x			0	0.0 0.0 -17.0		0.0 0.0 0.0
+data/MODEL/normal/04_chin.x			0	0.0 -1.0 0.0		0.0 0.0 0.0
+data/MODEL/normal/05_right_hand.x	0	-8.0 -5.0 -8.0		0.0 0.0 0.0
+data/MODEL/normal/06_left_hand.x	0	8.0 -5.0 -8.0		0.0 0.0 0.0
+data/MODEL/normal/07_right_leg.x	0	-10.5 -1.0 0.0		0.0 0.0 0.0
+data/MODEL/normal/08_right_knee.x	0	-3.0 -11.0 -4.5		0.0 0.0 0.0
+data/MODEL/normal/09_right_foot.x	0	1.0 -11.0 8.5		0.0 0.0 0.0
+data/MODEL/normal/10_left_leg.x		0	10.5 -1.0 0.0		0.0 0.0 0.0
+data/MODEL/normal/11_left_knee.x	0	0.0 -11.0 -4.5		0.0 0.0 0.0
+data/MODEL/normal/12_left_foot.x	0	3.0 -11.0 8.5		0.0 0.0 0.0
+data/MODEL/normal/13_tail1.x		0	0.0 13.0 18.0		-1.57 0.0 0.0
+data/MODEL/normal/14_tail2.x		0	0.0 25.0 9.0		-1.57 0.0 0.0
+
+
+
+data/MODEL/attack/00_hip.x			1	0.0 55.0 0.0		0.0 0.0 0.0
+data/MODEL/attack/01_body.x			1	0.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/attack/02_chest.x		1	0.0 -3.0 -20.0		0.0 0.0 0.0
+data/MODEL/attack/03_neck.x			1	0.0 -5.0 -12.0		0.0 0.0 0.0
+data/MODEL/attack/04_head.x			1	0.0 0.0 -15.0		0.0 0.0 0.0
+data/MODEL/attack/05_chin.x			1	0.0 -2.0 1.5		0.0 0.0 0.0
+data/MODEL/attack/06_legR.x			1	-10.0 -3.5 6.0		0.0 0.0 0.0
+data/MODEL/attack/07_kneeR.x		1	-3.0 -13.0 0.0		0.0 0.0 0.0
+data/MODEL/attack/08_footR.x		1	0.0 -22.0 9.5		0.0 0.0 0.0
+data/MODEL/attack/09_legL.x			1	12.0 -3.0 6.0		0.0 0.0 0.0
+data/MODEL/attack/10_kneeL.x		1	3.0 -14.5 0.0		0.0 0.0 0.0
+data/MODEL/attack/11_footL.x		1	0.0 -22.0 9.5		0.0 0.0 0.0
+data/MODEL/attack/12_shoulderR.x	1	-8.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/attack/13_armR.x			1	-4.0 -15.0 2.0		0.0 0.0 0.0
+data/MODEL/attack/14_handR.x		1	0.0 -13.0 0.0		0.0 0.0 0.0
+data/MODEL/attack/15_shoulderL.x	1	8.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/attack/16_armL.x			1	5.0 -12.0 2.0		0.0 0.0 0.0
+data/MODEL/attack/17_handL.x		1	2.0 -17.0 0.0		0.0 0.0 0.0
+data/MODEL/attack/18_tail1.x		1	0.0 -5.0 33.0		-1.57 0.0 0.0
+data/MODEL/attack/19_tail2.x		1	0.0 31.0 -13.0		-1.57 0.0 0.0
+
+
+data/MODEL/player_S/body3_ziku.x	2	0.0 33.0 30.0		0.0 0.0 0.0
+data/MODEL/player_S/body2.x			2	0.0 -6.0 -10.0		0.0 0.0 0.0
+data/MODEL/player_S/body1.x			2	0.0 -3.0 -20.0		0.0 0.0 0.0
+data/MODEL/player_S/body0.x			2	0.0 10.0 -15.0		0.0 0.0 0.0
+data/MODEL/player_S/neck.x			2	0.0 8.5 -15.0		-0.11 0.0 0.0
+data/MODEL/player_S/head.x			2	0.0 23.0 -7.0		0.0 0.0 0.0
+data/MODEL/player_S/chin.x			2	0.0 -4.0 -4.0		0.0 0.0 0.0
+data/MODEL/player_S/tail.x			2	0.0 0.0 11.0		0.0 0.0 0.0
+data/MODEL/player_S/tail1.x			2	0.0 -12.0 13.0		1.57 0.0 0.0
+data/MODEL/player_S/wingS.x			2	0.0 20.0 0.0		0.0 0.0 0.0
+data/MODEL/player_S/wingL.x			2	20.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/player_S/wingR.x			2	-20.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/player_S/armLU.x			2	8.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/player_S/armLD.x			2	3.0 -18.0 0.0		0.0 0.0 0.0
+data/MODEL/player_S/handL.x			2	2.0 -13.0 0.0		-0.2 0.0 0.0
+data/MODEL/player_S/armRU.x			2	-8.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/player_S/armRD.x			2	-3.0 -18.0 0.0		0.0 0.0 0.0
+data/MODEL/player_S/handR.x			2	-2.0 -13.0 0.0		-0.2 0.0 0.0
+data/MODEL/player_S/legLU.x			2	5.0 -5.5 -6.0		0.0 0.0 0.0
+data/MODEL/player_S/legLD.x			2	8.0 -11.0 0.0		0.0 0.0 0.0
+data/MODEL/player_S/footL.x			2	-1.0 -8.0 9.0		0.0 0.0 0.0
+data/MODEL/player_S/legRU.x			2	-5.0 -5.5 -6.0		0.0 0.0 0.0
+data/MODEL/player_S/legRD.x			2	-8.0 -11.0 0.0		0.0 0.0 0.0
+data/MODEL/player_S/footR.x			2	1.0 -8.0 9.0		0.0 0.0 0.0
+
+
+
+data/MODEL/speed/00_hip.x				3		0.0 40.0 0.0		0.0 0.0 0.0
+data/MODEL/speed/01_third_body.x		3		0.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/speed/02_second_body.x		3		0.0 1.0 -20.0		0.0 0.0 0.0
+data/MODEL/speed/03_chest.x				3		0.0 0.0 -19.0		0.0 0.0 0.0
+data/MODEL/speed/04_head.x				3		0.0 0.0 -18.0		0.0 0.0 0.0
+data/MODEL/speed/05_chin.x				3		0.0 -4.0 0.0		0.0 0.0 0.0
+data/MODEL/speed/06_right_leg.x			3		-6.5 -1.0 0.0		0.0 0.0 0.0
+data/MODEL/speed/07_right_knee.x		3		0.0 -19.0 -4.5		0.0 0.0 0.0
+data/MODEL/speed/08_right_foot.x		3		0.0 -11.0 8.5		0.0 0.0 0.0
+data/MODEL/speed/09_left_leg.x			3		6.5 -1.0 0.0		0.0 0.0 0.0
+data/MODEL/speed/10_left_knee.x			3		0.0 -18.5 -4.5		0.0 0.0 0.0
+data/MODEL/speed/11_left_foot.x			3		0.0 -11.0 8.5		0.0 0.0 0.0
+data/MODEL/speed/12_right_shoulder.x	3		-5.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/speed/13_right_arm.x			3		0.0 -21.0 0.0		0.0 0.0 0.0
+data/MODEL/speed/14_right_hand.x		3		0.0 -15.0 0.0		0.0 0.0 0.0
+data/MODEL/speed/15_left_shoulder.x		3		5.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/speed/16_left_arm.x			3		0.0 -21.0 0.0		0.0 0.0 0.0
+data/MODEL/speed/17_left_hand.x			3		0.0 -15.0 0.0		0.0 0.0 0.0
+data/MODEL/speed/18_tail.x				3		0.0 0.0 8.0			0.0 0.0 0.0
+data/MODEL/speed/19_tail2.x				3		0.0 0.0 8.0			0.0 0.0 0.0
+
+
+
+data/MODEL/B_King/00_bodyD.x		4	0.0 51.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/01_bodyU.x		4	0.0 14.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/02_head.x			4	0.0 18.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/03_armUR.x		4	-6.5 15.5 0.0		0.0 0.0 0.0
+data/MODEL/B_King/04_armDR.x		4	-12.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/05_handR.x		4	-10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/06_armUL.x		4	6.5 15.5 0.0		0.0 0.0 0.0
+data/MODEL/B_King/07_armDL.x		4	12.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/08_handL.x		4	10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/09_legUR.x		4	-6.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/10_legDR.x		4	0.0 -25.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/11_footR.x		4	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/12_legUL.x		4	6.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/B_King/13_legDL.x		4	0.0 -25.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/14_footL.x		4	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/B_King/Sword.x			4	-10.0 1.0 -0.5		0.0 0.0 0.0
+
+
+
+data/MODEL/E_Warrior/00_bodyD.x		5	0.0 51.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/01_bodyU.x		5	0.0 10.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/02_head.x		5	0.0 18.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/03_armUR.x		5	-6.5 15.5 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/04_armDR.x		5	-12.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/05_handR.x		5	-10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/06_armUL.x		5	6.5 15.5 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/07_armDL.x		5	12.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/08_handL.x		5	10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/09_legUR.x		5	-6.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/10_legDR.x		5	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/11_footR.x		5	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/12_legUL.x		5	6.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/E_Warrior/13_legDL.x		5	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/14_footL.x		5	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Warrior/Sword.x		5	-10.0 1.0 -0.5		0.0 0.0 0.0
+
+
+
+data/MODEL/E_Ninja/00_bodyD.x	6	0.0 45.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/01_bodyU.x	6	0.0 10.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/02_head.x	6	0.0 21.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/03_armUR.x	6	-6.5 18.5 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/04_armDR.x	6	-13.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/05_handR.x	6	-10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/06_armUL.x	6	6.5 18.5 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/07_armDL.x	6	13.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/08_handL.x	6	10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/09_legUR.x	6	-6.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/10_legDR.x	6	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/11_footR.x	6	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/12_legUL.x	6	6.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/E_Ninja/13_legDL.x	6	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/14_footL.x	6	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/Sword1.x		6	-8.0 3.0 -1.0		0.0 0.0 0.0
+data/MODEL/E_Ninja/Sword2.x		6	7.0 3.0 -0.5		0.0 0.0 0.0
+
+
+
+data/MODEL/E_Wizard/00_bodyD.x	7	0.0 45.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/01_bodyU.x	7	0.0 10.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/02_head.x	7	0.0 21.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/03_armUR.x	7	-6.5 15.5 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/04_armDR.x	7	-13.5 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/05_handR.x	7	-10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/06_armUL.x	7	6.5 15.5 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/07_armDL.x	7	13.5 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/08_handL.x	7	10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/09_legUR.x	7	-6.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/10_legDR.x	7	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/11_footR.x	7	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/12_legUL.x	7	6.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/E_Wizard/13_legDL.x	7	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/14_footL.x	7	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Wizard/Weapon.x	7	-10.0 1.0 -0.5		0.0 0.0 0.0
+
+
+
+data/MODEL/E_Soldiers/00_bodyD.x		8	0.0 51.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/01_bodyU.x		8	0.0 10.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/02_head.x			8	0.0 18.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/03_armUR.x		8	-6.5 15.5 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/04_armDR.x		8	-12.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/05_handR.x		8	-10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/06_armUL.x		8	6.5 15.5 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/07_armDL.x		8	12.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/08_handL.x		8	10.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/09_legUR.x		8	-6.0 0.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/10_legDR.x		8	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/11_footR.x		8	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/12_legUL.x		8	6.0 0.0 0.0			0.0 0.0 0.0
+data/MODEL/E_Soldiers/13_legDL.x		8	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/14_footL.x		8	0.0 -20.0 0.0		0.0 0.0 0.0
+data/MODEL/E_Soldiers/Sword.x			8	-10.0 1.0 -0.5		0.0 0.0 0.0
